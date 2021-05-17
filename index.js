@@ -3,7 +3,7 @@ function RandomCall(){
     // Enter Player1 Name
     var player1 = window.prompt("Player one, please enter your name!");
 
-    if (player1 == null)
+    if (player1 == null || player1 == "")
         player1 = "ram";
     
     document.querySelector(".name1").innerHTML = player1;
@@ -11,7 +11,7 @@ function RandomCall(){
     //Enter player2 Name
     var player2 = window.prompt("Player two, please enter your name!");
     
-    if (player2 == null)
+    if (player2 == null || player2 == "")
         player2 = "shyam";
 
     document.querySelector(".name2").innerHTML = player2;
